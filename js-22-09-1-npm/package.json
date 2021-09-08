@@ -1,0 +1,34 @@
+{
+  "name": "js-22",
+  "version": "1.0.0",
+  "description": "- Терминал   - [Шпаргалка 1](https://tproger.ru/translations/bash-cheatsheet/)   - [Шпаргалка 2](https://habr.com/ru/company/ruvds/blog/445270/)   - Открыть     - `control + ~`     - `view > teminal`     - через палитру `command + shift + p`   - Основные полезные команды     - путь (pwd)     - лист (ls)     - навигация (cd)     - очистка `clear` или `control + l`     - создание файлов (touch)     - создание папок (mkdir)     - переименование/перемещение (mv)     - удаление (rm) - Node.js и npm   - установка   - инициализация и package.json   - [npmjs.com](https://www.npmjs.com/)   - работа с пакетами     - установка     - удаление   - CommonJS модули   - npm-скрипты     - pre и post - Транспиляция кода   - [Babel](https://babeljs.io/)   - CLI и npm-скрипты   - Пресеты   - [Browserslist](https://github.com/browserslist/browserslist) - [Сборщик Parcel](https://parceljs.org/) - [ECMAScript модули](https://exploringjs.com/es6/ch_modules.html)   - Дефолтный (default) експорт и импорт   - Именованный (named) експорт и импорт   - Импорт пространства имён (namespace)",
+  "main": "app.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luxplanjay/js-22.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luxplanjay/js-22/issues"
+  },
+  "homepage": "https://github.com/luxplanjay/js-22#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "shortid": "^2.2.15",
+    "uuid.v4": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-typescript": "^7.15.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
