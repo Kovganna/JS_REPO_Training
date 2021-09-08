@@ -8,6 +8,8 @@ const galleryRef = document.querySelector('.js-gallery');
 const markup = itemsTemplate(countries);
 galleryRef.insertAdjacentHTML('beforeend', markup);
 
+
+//perfomance.now()
 var now = require("performance-now")
 var start = now()
 var end = now()
