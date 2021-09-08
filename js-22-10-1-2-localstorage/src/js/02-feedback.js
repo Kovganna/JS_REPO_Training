@@ -106,7 +106,7 @@ refs.form.addEventListener('input', e => {
 refs.form.addEventListener('submit', e => {
   e.preventDefault();
   e.currentTarget.reset();//приводит форму в изначальное состояние
-  
+  const strFormData = JSON.stringify(formData);
   localStorage.removeItem('feedback', strFormData);
 })
 
